@@ -1,0 +1,159 @@
+# WordPress Core
+/wp-admin/
+/wp-includes/
+/wp-config.php
+/wp-config-sample.php
+/wp-load.php
+/wp-blog-header.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-comments-post.php
+/wp-login.php
+
+# WordPress Config
+wp-config-*.php
+
+# WordPress Uploads
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/cache/
+/wp-content/backups/
+
+# WordPress Plugins (except custom ones)
+/wp-content/plugins/
+# Keep custom plugins by uncommenting and specifying:
+# !/wp-content/plugins/my-custom-plugin/
+
+# WordPress Themes (except custom ones)
+/wp-content/themes/twenty*/
+# Keep our custom theme
+!/wp-content/themes/todo-tops-theme/
+
+# WordPress Language Files
+/wp-content/languages/
+
+# WordPress Cache & Logs
+*.log
+/wp-content/debug.log
+/wp-content/cache/
+*.tmp
+
+# Database dumps
+*.sql
+*.sql.gz
+
+# Docker specific
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker volumes data (keep container data separate)
+mysql_data/
+wordpress_data/
+
+# IDE and Editor files
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Node.js (if using)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.node_repl_history
+
+# PHP specific
+*.php~
+*.tmp
+vendor/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Security keys and certificates
+*.pem
+*.key
+*.crt
+
+# phpMyAdmin
+/phpmyadmin/
+
+# WooCommerce specific
+/wp-content/wflogs/
+
+# WP CLI
+wp-cli.phar
+
+# Composer
+composer.phar
+/vendor/
+
+# PHPUnit
+/phpunit.xml
+/phpunit.phar
+
+# WordPress multisite
+/wp-config.php
+/wp-content/blogs.dir/
+/wp-content/blog-deleted/
+/wp-content/blog-inactive/
+/wp-content/blog-suspended/
+
+# Local development
+local-config.php
+
+# WordPress debugging
+wp-content/debug.log
+
+# Keep empty directories
+!.gitkeep
